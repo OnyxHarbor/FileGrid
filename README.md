@@ -1,9 +1,12 @@
-# FileGrid
-
 <div align="center">
-  <img src="docs/logo.svg" width="128" height="128" alt="FileGrid Logo" />
-  <h3>The Modern Power-User File Manager for Windows</h3>
-  <p>Engineered for extreme speed, multi-pane precision, keyboard workflows, and total privacy.</p>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="docs/filegrid-horizontal-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="docs/filegrid-horizontal.svg">
+    <img src="docs/filegrid-horizontal.svg" width="420" alt="FileGrid Logo" />
+  </picture>
+
+  <p><strong>The Modern Power-User File Manager for Windows</strong><br>
+  Engineered for extreme speed, multi-pane precision, keyboard workflows, and total privacy.</p>
 
   <p>
     <a href="https://onyxharbor.github.io/FileGrid/"><img src="https://img.shields.io/badge/Website-GitHub%20Pages-3b82f6?style=flat-square" alt="Website" /></a>
