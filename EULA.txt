@@ -3,76 +3,99 @@ FileGrid - End User License Agreement (EULA) & Developer Intent
 Copyright (c) 2026 OnyxHarbor. All rights reserved.
 ================================================================================
 
-IMPORTANT — READ BEFORE USING THIS SOFTWARE:
+IMPORTANT — READ CAREFULLY BEFORE USING THIS SOFTWARE:
 This document expresses the developer's licensing philosophy, user permissions,
 and terms of service for the FileGrid application, binaries, plugins, and assets
 (collectively, "FileGrid" or the "Software"), developed by OnyxHarbor ("Author", "we").
 
---------------------------------------------------------------------------------
-1. DEVELOPER PHILOSOPHY & UNLIMITED USE PERMISSION (เจตนาของผู้พัฒนาและสิทธิ์การใช้งาน)
---------------------------------------------------------------------------------
-FileGrid ถูกสร้างขึ้นด้วยปรัชญาที่มุ่งเน้นเสรีภาพของผู้ใช้งานเป็นหลัก:
-
-- บุคคลและนิติบุคคล/บริษัทใช้งานได้อย่างอิสระ (INDIVIDUAL & ENTERPRISE FREEDOM):
-  FileGrid อนุญาตให้บุคคลทั่วไป ฟรีแลนซ์ ธุรกิจขนาดเล็ก ไปจนถึงบริษัทและองค์กรขนาดใหญ่
-  นำไปติดตั้งและใช้งานในเชิงพาณิชย์และการทำงานประจำวันได้อย่างเสรี
-
-- ไม่จำกัดจำนวนเครื่อง (UNLIMITED MACHINES & INSTALLATIONS):
-  ไม่มีการจำกัดจำนวนเครื่อง คอมพิวเตอร์ หรือเวิร์กสเตชัน คุณสามารถติดตั้งและใช้งาน
-  บนคอมพิวเตอร์กี่เครื่องก็ได้ภายในบ้านหรือภายในองค์กรของคุณ
-
-- ไม่มีการตรวจสอบไลเซนส์ / ไร้ DRM (ZERO LICENSE VERIFICATION & NO PHONE-HOME):
-  FileGrid ไม่มีระบบตรวจสอบ License, ไม่มีระบบ Activation Key, ไม่มีการล็อกฮาร์ดแวร์,
-  ไม่มีระบบตรวจสอบสิทธิ์ผ่านเครือข่าย และไม่มีการสอบเช็คหรือ Audit ใดๆ ทั้งสิ้น
-  คุณสามารถใช้งานได้อย่างต่อเนื่องโดยสมบูรณ์แบบออฟไลน์
-
-- การกำหนดราคาขายคือ "การสนับสนุนผู้พัฒนา" (PURCHASE AS VOLUNTARY SUPPORT):
-  ราคาที่ปรากฏบน Microsoft Store เป็นไปเพื่อ "การสนับสนุนและเป็นทุนในการพัฒนาซอฟต์แวร์"
-  (Developer Support / Sponsorship) ผู้ที่ซื้อแอพพลิเคชันคือผู้ร่วมสนับสนุนให้ผู้พัฒนา
-  สามารถดูแล ปรับปรุง แก้ไข และพัฒนาฟีเจอร์ใหม่ๆ ของ FileGrid ต่อไปในระยะยาว
+BY DOWNLOADING, INSTALLING, COPYING, OR USING FILEGRID, YOU ACKNOWLEDGE AND AGREE
+TO BE BOUND BY THE PROVISIONS OUTLINED BELOW.
 
 --------------------------------------------------------------------------------
-2. ทรัพย์สินทางปัญญาและขอบเขตข้อห้าม (INTELLECTUAL PROPERTY & FAIR CONDUCT)
+1. DEVELOPER PHILOSOPHY & UNLIMITED USE PERMISSION
 --------------------------------------------------------------------------------
-สิทธิ์ความเป็นเจ้าของ ชื่อเสียง โค้ด และทรัพย์สินทางปัญญาใน FileGrid เป็นของผู้พัฒนา
-(OnyxHarbor) โดยผู้ใช้งานสามารถนำไปใช้งานได้ทุกที่อย่างอิสระ แต่ตกลงที่จะไม่:
-- นำตัวโปรแกรมหรือ Binary ของ FileGrid ไปรีแบรนด์ เปลี่ยนชื่อ หรือนำไปขายต่อ (Resell)
-  เสมือนเป็นผลงานของตนเองเพื่อแสวงหากำไรส่วนตัว
-- ดัดแปลงหรือแทรกโค้ดอันตราย มัลแวร์ หรือสปายแวร์ลงในตัวโปรแกรมเพื่อนำไปแจกจ่ายต่อ
-- ลบข้อความลิขสิทธิ์ ชื่อผู้พัฒนา หรือข้อความแสดงเจตนารมณ์นี้ออกจากตัวโปรแกรม
+FileGrid is engineered with a philosophy prioritizing user freedom, zero friction,
+and mutual respect:
+
+- INDIVIDUAL & ENTERPRISE FREEDOM:
+  FileGrid permits individuals, freelancers, academic institutions, non-profit
+  organizations, small businesses, and large commercial enterprises to install
+  and deploy FileGrid for daily productivity and commercial operations without
+  tiered seat restrictions.
+
+- UNLIMITED MACHINES & INSTALLATIONS:
+  There is zero restriction on the number of computers, laptops, or workstations.
+  You are free to install and use FileGrid across any number of devices within
+  your household or organizational workspace.
+
+- ZERO LICENSE VERIFICATION & NO PHONE-HOME (DRM-FREE):
+  FileGrid contains no license validation servers, no activation keys, no machine
+  fingerprinting, no online DRM checks, and no background software audits. FileGrid
+  operates 100% locally and completely offline.
+
+- PURCHASE AS VOLUNTARY DEVELOPER SUPPORT:
+  The nominal purchase fee on the official Microsoft Store represents a voluntary
+  developer sponsorship and contribution (One-time Support Fee). By acquiring
+  FileGrid through the Microsoft Store, you directly fund the ongoing maintenance,
+  performance optimizations, and future feature development of FileGrid.
 
 --------------------------------------------------------------------------------
-3. ช่องทางการจัดจำหน่ายอย่างเป็นทางการและการเตือนสำเนาเถื่อน (DISTRIBUTION WARNING)
+2. INTELLECTUAL PROPERTY & FAIR CONDUCT
 --------------------------------------------------------------------------------
-FileGrid ได้รับการเผยแพร่และอัปเดตความปลอดภัยอย่างเป็นทางการผ่าน Microsoft Store
-- ผู้พัฒนาขอปฏิเสธความรับผิดชอบ 100% ต่อความเสียหาย มัลแวร์ หรือไวรัส ที่เกิดจากการ
-  ดาวน์โหลดตัวโปรแกรมจากแหล่งภายนอกที่ไม่ได้รับอนุญาต หรือเว็บแจกไฟล์เถื่อน
-  เนื่องจากอาจถูกดัดแปลงและฝังโค้ดไม่พึงประสงค์จากบุคคลภายนอก
+All title, copyrights, trademarks, algorithms, brand assets, and proprietary code
+in FileGrid belong exclusively to OnyxHarbor. Users are granted wide freedom to use
+the software, subject to fair conduct:
+
+You agree NOT to:
+- Rebrand, rename, resell, rent, lease, or redistribute FileGrid binaries as your
+  own commercial work or proprietary product.
+- Inject, bundle, or distribute modified copies containing malware, adware, spyware,
+  cryptominers, or unauthorized third-party payloads.
+- Remove, obscure, or alter proprietary copyright notices, author attributions,
+  or this EULA document from the software distribution.
 
 --------------------------------------------------------------------------------
-4. การจำกัดความรับผิดชอบต่อความเสียหายของข้อมูล (ABSOLUTE DATA LOSS DISCLAIMER - AS-IS)
+3. OFFICIAL DISTRIBUTION CHANNEL & THIRD-PARTY WARNING
 --------------------------------------------------------------------------------
-FILEGRID เป็นโปรแกรมจัดการไฟล์ระดับ Power-User ที่มีคำสั่งจัดการไฟล์โดยตรง
-(คัดลอก, ย้าย, เปลี่ยนชื่อ, และลบไฟล์ถาวร)
-
-ตามขอบเขตสูงสุดที่กฎหมายอนุญาต:
-- ซอฟต์แวร์นี้ให้บริการตามสภาพ "AS-IS" และ "AS-AVAILABLE" โดยปราศจากการรับประกันใดๆ
-- ผู้พัฒนาขอปฏิเสธการรับประกันความเหมาะสมสำหรับวัตถุประสงค์เฉพาะ และจะไม่รับผิดชอบ
-  ต่อความเสียหายใดๆ ไม่ว่าทางตรงหรือทางอ้อม อันได้แก่:
-  * การสูญหายของข้อมูล, ไฟล์เสียหาย, หรือการลบไฟล์ที่ไม่สามารถกู้คืนได้
-  * ระบบขัดข้อง ความไม่เสถียรของฮาร์ดแวร์ หรือการหยุดชะงักทางธุรกิจ
-- ผู้ใช้งานมีหน้าที่และความรับผิดชอบเต็มที่ในการสำรองข้อมูลสำคัญ (BACKUP) อย่างสม่ำเสมอ
-  ด้วยตนเองก่อนดำเนินการจัดการไฟล์ใดๆ
+FileGrid is distributed and maintained officially through the Microsoft Store.
+- The developer expressly disclaims all responsibility and liability for unauthorized
+  mirrors, cracked archives, repackaged bundles, or third-party download portals.
+- Copies acquired outside the official Microsoft Store may harbor unverified code
+  or malicious modifications. Users downloading from unauthorized sources do so
+  at their own risk.
 
 --------------------------------------------------------------------------------
-5. ข้อจำกัดในสภาพแวดล้อมที่มีความเสี่ยงสูง (HIGH-RISK ENVIRONMENT RESTRICTION)
+4. ABSOLUTE DATA LOSS DISCLAIMER & WARRANTY (AS-IS)
 --------------------------------------------------------------------------------
-FileGrid ไม่ได้ออกแบบมาสำหรับสภาพแวดล้อมที่มีความสำคัญอย่างยิ่งยวดที่ต้องใช้ระบบ
-Fail-Safe (เช่น ระบบโรงงานนิวเคลียร์ ระบบควบคุมการบิน หรืออุปกรณ์ช่วยชีวิตทางการแพทย์)
+FILEGRID IS A HIGH-PERFORMANCE POWER-USER FILE MANAGEMENT UTILITY THAT EXECUTES
+DIRECT FILE SYSTEM OPERATIONS (INCLUDING MOVING, COPYING, RENAMING, AND DELETING FILES).
+
+TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW:
+- FILEGRID IS PROVIDED STRICTLY ON AN "AS-IS" AND "AS-AVAILABLE" BASIS, WITHOUT
+  WARRANTIES OF ANY KIND, WHETHER EXPRESS, IMPLIED, STATUTORY, OR OTHERWISE.
+- THE DEVELOPER SPECIFICALLY DISCLAIMS ALL IMPLIED WARRANTIES OF MERCHANTABILITY,
+  FITNESS FOR A PARTICULAR PURPOSE, AND SYSTEM STABILITY.
+- UNDER NO CIRCUMSTANCES SHALL THE DEVELOPER BE HELD LIABLE FOR DIRECT, INDIRECT,
+  INCIDENTAL, SPECIAL, OR CONSEQUENTIAL DAMAGES ARISING FROM THE USE OF THE SOFTWARE,
+  INCLUDING BUT NOT LIMITED TO:
+  * LOSS OF DATA, CORRUPTED FILES, ACCIDENTAL DELETIONS, OR DRIVE DAMAGE.
+  * SYSTEM CRASHES, HARDWARE INSTABILITY, OR BUSINESS INTERRUPTION.
+  * LOSS OF ANTICIPATED REVENUES, PROFITS, OR COMMERCIAL OPPORTUNITIES.
+USERS ASSUME FULL RESPONSIBILITY FOR MAINTAINING REGULAR, INDEPENDENT BACKUPS OF
+CRITICAL FILES PRIOR TO INITIATING FILE SYSTEM ACTIONS.
 
 --------------------------------------------------------------------------------
-6. ความเป็นส่วนตัวและความปลอดภัย (PRIVACY & LOCAL PROCESSING)
+5. HIGH-RISK ENVIRONMENT RESTRICTION
 --------------------------------------------------------------------------------
-FileGrid ทำงานแบบ Local 100% บนเครื่องของคุณ ไม่มีการเก็บข้อมูลส่วนบุคคล,
-ไม่มีการส่งข้อมูลไฟล์ออกนอกเครื่อง และไม่มีระบบติดตามพฤติกรรม (Zero Telemetry)
+FileGrid is not fault-tolerant and is not engineered, certified, or intended for
+use in safety-critical, life-support, hazardous, aviation, or nuclear control
+environments where software error could directly lead to physical injury, loss of
+life, or catastrophic environmental damage.
+
+--------------------------------------------------------------------------------
+6. PRIVACY & LOCAL PROCESSING GUARANTEE
+--------------------------------------------------------------------------------
+FileGrid operates 100% on-device. The application collects zero personal data,
+transmits zero telemetry packets, embeds zero advertising tracking SDKs, and never
+relays user directories or file contents across any external network.
 ================================================================================
