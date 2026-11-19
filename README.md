@@ -36,7 +36,8 @@
 
 FileGrid is distributed exclusively through the **Microsoft Store** to guarantee verified cryptographic signatures, seamless installation, sandboxed security, and silent background updates.
 
-- **Voluntary Support Model:** FileGrid is offered on the Microsoft Store for a small one-time developer support fee. There are zero subscriptions, zero in-app upsells, zero ads, and zero DRM activation hurdles.
+- **Voluntary Support Model:** FileGrid is offered on the Microsoft Store for a small one-time developer support fee. There are zero subscriptions, zero ads, and zero DRM activation hurdles.
+- **Complete Core Experience:** All core file management capabilities—multi-pane workspaces, inline visual diff, staging basket, kinematic instant search, and full theme personalization—are 100% unlocked out of the box without artificial paywalls. Optional modular plugins (`.fgpkg`) can be added independently to tailor specialized workflows.
 - **Direct Developer Funding:** Purchasing FileGrid acts as a direct sponsorship, empowering the author to actively maintain, optimize, and engineer upcoming features over the long term.
 - **Unlimited Freedom of Deployment:** You pay once and enjoy unlimited installations across all personal and commercial computers within your organization or home.
 
