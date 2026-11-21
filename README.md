@@ -43,15 +43,48 @@ FileGrid is distributed exclusively through the **Microsoft Store** to guarantee
 
 ---
 
-## 🚀 Key Features
+## 🚀 Core Key Features (Built-in Capabilities)
 
-- **Dynamic Multi-Pane Grid Workspaces:** Open dual, triple, or 4-pane layouts side-by-side with independent navigation history and session restore.
-- **Inline Visual Diff Inspector:** Compare directories and files side-by-side with instantaneous difference highlighting.
-- **Staging Basket Tray:** Collect files from multiple drives into a staging tray before performing batched copy, move, rename, or archive operations.
-- **Kinematic Instant Filter:** Filter tens of thousands of items in milliseconds with zero UI stutter.
-- **Pearl Design System:** Ergonomic anti-glare theme with compact 24px density, Mica/Acrylic material backdrops, and real-time HSL color customization.
-- **Modular Plugin Engine (`.fgpkg`):** Extend capabilities with custom InProcessUI controls or isolated Sandboxed Apps managed by Windows Job Objects.
-- **100% Local & Private:** Zero analytics, zero telemetric beacons, and zero network calls during core operations.
+Every feature below is 100% built into the core FileGrid application out of the box:
+
+### 🗂️ Advanced Grid Workspaces & Navigation
+- **Dynamic Multi-Pane Grids:** Flexible single, dual (horizontal/vertical split), triple, and 4-pane (2x2) grid layouts with independent navigation history and session restore per pane.
+- **Fluid Panel Splitters:** Real-time draggable splitters with smooth pane resizing and instant pane-swapping.
+- **Interactive Breadcrumb Navigation:** Visual path breadcrumbs with instant folder jump dropdowns and direct manual path entry.
+- **Workspace Project Profiles:** Save, organize, and reload custom pane arrangements, pinned folders, and opened directories per project or workflow.
+
+### 🔍 Visual Diff & Directory Comparison
+- **Inline Visual Diff Inspector:** Compare two directories or files side-by-side directly inside the grid without third-party utilities.
+- **Instant Difference Highlighting:** Color-coded diff badges highlight added, modified, removed, and identical files in real time.
+
+### 🧺 Staging Basket & Batch Operations
+- **Cross-Drive Staging Basket:** Collect files and directories from multiple different drives into a unified holding tray.
+- **Unified Batch Execution:** Execute bulk copy, move, rename, or delete operations from the staging basket in a single coordinated action.
+
+### ⚡ Kinematic Filter & Fast Search
+- **Instant Millisecond Filtering:** Filter tens of thousands of directory items instantaneously with zero UI stutter or thread freezing.
+- **Flexible Filter Modes:** Supports instantaneous wildcard matching, extension grouping, and regular expressions with live text highlighting.
+
+### 🛡️ File Operations & Transaction Ledger
+- **Non-Blocking Asynchronous I/O:** Heavy file operations run smoothly in the background, keeping the browsing UI responsive at 60+ FPS.
+- **Operation History Ledger:** Comprehensive ledger panel tracks file operations with progress indicators, status history, and operational details.
+- **Intelligent Conflict Resolver:** Smart interactive dialog for handling file collisions (overwrite, skip, keep newer, auto-rename with sequential suffixes, or cancel).
+
+### 🖥️ Deep Windows Shell & Hardware Integration
+- **Native Shell Context Menus:** Full Win32/COM shell menu integration with complete access to Windows context menu handlers and file properties.
+- **High-Performance Native Thumbnails:** Multi-tiered caching for instantaneous high-resolution file and media thumbnails.
+- **Live Device & Drive Monitoring:** Automatic real-time detection of USB flash drives and external storage devices with live capacity indicators.
+- **System Clipboard & Drag-and-Drop:** Seamless cross-pane drag-and-drop and clipboard cut/copy/paste with external Windows applications.
+
+### 🎨 Pearl Design System & Ergonomics
+- **Anti-Glare Ergonomic Theme:** Neutral, low-contrast palette engineered specifically to eliminate eye fatigue during marathon sessions.
+- **Real-Time HSL Color Customizer:** Interactive hue, saturation, and lightness color picker with gradient tubes to customize accent themes on the fly.
+- **Mica & Acrylic Depth:** Native Windows 11 backdrop materials with seamless instant switching between Dark, Light, and High-Contrast modes.
+- **Compact 24px Density:** High-density power-user layout maximizing visible data rows while maintaining touch/mouse precision.
+
+### 🔒 Privacy & Offline Assurance
+- **100% Local & Private:** Zero telemetry, zero behavioral tracking, and zero advertising SDKs.
+- **Fully Offline Core:** Core file browsing and system operations execute completely offline—your metadata, directories, and files never leave your computer.
 
 ---
 
