@@ -57,9 +57,9 @@ Every feature below is 100% built into the core FileGrid application out of the 
 - **Inline Visual Diff Inspector:** Compare two directories or files side-by-side directly inside the grid without third-party utilities.
 - **Instant Difference Highlighting:** Color-coded diff badges highlight added, modified, removed, and identical files in real time.
 
-### 🧺 Staging Basket & Batch Operations
-- **Cross-Drive Staging Basket:** Collect files and directories from multiple different drives into a unified holding tray.
-- **Unified Batch Execution:** Execute bulk copy, move, rename, or delete operations from the staging basket in a single coordinated action.
+### ⌨️ Keyboard-Driven Ergonomics & Navigation
+- **Power-User Hotkeys:** Configurable keyboard shortcuts for instant pane switching, directory jumping, tab control, and quick filter activation.
+- **Instant Path & History Access:** Editable direct path input with instantaneous auto-complete, breadcrumb click navigation, and quick access jump history.
 
 ### ⚡ Kinematic Filter & Fast Search
 - **Instant Millisecond Filtering:** Filter tens of thousands of directory items instantaneously with zero UI stutter or thread freezing.
