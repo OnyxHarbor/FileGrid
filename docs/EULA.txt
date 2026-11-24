@@ -1,0 +1,101 @@
+================================================================================
+FileGrid - End User License Agreement (EULA) & Developer Intent
+Copyright (c) 2026 OnyxHarbor. All rights reserved.
+================================================================================
+
+IMPORTANT — READ CAREFULLY BEFORE USING THIS SOFTWARE:
+This document expresses the developer's licensing philosophy, user permissions,
+and terms of service for the FileGrid application, binaries, plugins, and assets
+(collectively, "FileGrid" or the "Software"), developed by OnyxHarbor ("Author", "we").
+
+BY DOWNLOADING, INSTALLING, COPYING, OR USING FILEGRID, YOU ACKNOWLEDGE AND AGREE
+TO BE BOUND BY THE PROVISIONS OUTLINED BELOW.
+
+--------------------------------------------------------------------------------
+1. DEVELOPER PHILOSOPHY & UNLIMITED USE PERMISSION
+--------------------------------------------------------------------------------
+FileGrid is engineered with a philosophy prioritizing user freedom, zero friction,
+and mutual respect:
+
+- INDIVIDUAL & ENTERPRISE FREEDOM:
+  FileGrid permits individuals, freelancers, academic institutions, non-profit
+  organizations, small businesses, and large commercial enterprises to install
+  and deploy FileGrid for daily productivity and commercial operations without
+  tiered seat restrictions.
+
+- UNLIMITED MACHINES & INSTALLATIONS:
+  There is zero restriction on the number of computers, laptops, or workstations.
+  You are free to install and use FileGrid across any number of devices within
+  your household or organizational workspace.
+
+- ZERO LICENSE VERIFICATION & NO PHONE-HOME (DRM-FREE):
+  FileGrid contains no license validation servers, no activation keys, no machine
+  fingerprinting, no online DRM checks, and no background software audits. FileGrid
+  operates 100% locally and completely offline.
+
+- PURCHASE AS VOLUNTARY DEVELOPER SUPPORT:
+  The nominal purchase fee on the official Microsoft Store represents a voluntary
+  developer sponsorship and contribution (One-time Support Fee). By acquiring
+  FileGrid through the Microsoft Store, you directly fund the ongoing maintenance,
+  performance optimizations, and future feature development of FileGrid.
+
+--------------------------------------------------------------------------------
+2. INTELLECTUAL PROPERTY & FAIR CONDUCT
+--------------------------------------------------------------------------------
+All title, copyrights, trademarks, algorithms, brand assets, and proprietary code
+in FileGrid belong exclusively to OnyxHarbor. Users are granted wide freedom to use
+the software, subject to fair conduct:
+
+You agree NOT to:
+- Rebrand, rename, resell, rent, lease, or redistribute FileGrid binaries as your
+  own commercial work or proprietary product.
+- Inject, bundle, or distribute modified copies containing malware, adware, spyware,
+  cryptominers, or unauthorized third-party payloads.
+- Remove, obscure, or alter proprietary copyright notices, author attributions,
+  or this EULA document from the software distribution.
+
+--------------------------------------------------------------------------------
+3. OFFICIAL DISTRIBUTION CHANNEL & THIRD-PARTY WARNING
+--------------------------------------------------------------------------------
+FileGrid is distributed and maintained officially through the Microsoft Store.
+- The developer expressly disclaims all responsibility and liability for unauthorized
+  mirrors, cracked archives, repackaged bundles, or third-party download portals.
+- Copies acquired outside the official Microsoft Store may harbor unverified code
+  or malicious modifications. Users downloading from unauthorized sources do so
+  at their own risk.
+
+--------------------------------------------------------------------------------
+4. ABSOLUTE DATA LOSS DISCLAIMER & WARRANTY (AS-IS)
+--------------------------------------------------------------------------------
+FILEGRID IS A HIGH-PERFORMANCE POWER-USER FILE MANAGEMENT UTILITY THAT EXECUTES
+DIRECT FILE SYSTEM OPERATIONS (INCLUDING MOVING, COPYING, RENAMING, AND DELETING FILES).
+
+TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW:
+- FILEGRID IS PROVIDED STRICTLY ON AN "AS-IS" AND "AS-AVAILABLE" BASIS, WITHOUT
+  WARRANTIES OF ANY KIND, WHETHER EXPRESS, IMPLIED, STATUTORY, OR OTHERWISE.
+- THE DEVELOPER SPECIFICALLY DISCLAIMS ALL IMPLIED WARRANTIES OF MERCHANTABILITY,
+  FITNESS FOR A PARTICULAR PURPOSE, AND SYSTEM STABILITY.
+- UNDER NO CIRCUMSTANCES SHALL THE DEVELOPER BE HELD LIABLE FOR DIRECT, INDIRECT,
+  INCIDENTAL, SPECIAL, OR CONSEQUENTIAL DAMAGES ARISING FROM THE USE OF THE SOFTWARE,
+  INCLUDING BUT NOT LIMITED TO:
+  * LOSS OF DATA, CORRUPTED FILES, ACCIDENTAL DELETIONS, OR DRIVE DAMAGE.
+  * SYSTEM CRASHES, HARDWARE INSTABILITY, OR BUSINESS INTERRUPTION.
+  * LOSS OF ANTICIPATED REVENUES, PROFITS, OR COMMERCIAL OPPORTUNITIES.
+USERS ASSUME FULL RESPONSIBILITY FOR MAINTAINING REGULAR, INDEPENDENT BACKUPS OF
+CRITICAL FILES PRIOR TO INITIATING FILE SYSTEM ACTIONS.
+
+--------------------------------------------------------------------------------
+5. HIGH-RISK ENVIRONMENT RESTRICTION
+--------------------------------------------------------------------------------
+FileGrid is not fault-tolerant and is not engineered, certified, or intended for
+use in safety-critical, life-support, hazardous, aviation, or nuclear control
+environments where software error could directly lead to physical injury, loss of
+life, or catastrophic environmental damage.
+
+--------------------------------------------------------------------------------
+6. PRIVACY & LOCAL PROCESSING GUARANTEE
+--------------------------------------------------------------------------------
+FileGrid operates 100% on-device. The application collects zero personal data,
+transmits zero telemetry packets, embeds zero advertising tracking SDKs, and never
+relays user directories or file contents across any external network.
+================================================================================

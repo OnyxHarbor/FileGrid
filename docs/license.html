@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>License &amp; Terms of Use - FileGrid</title>
+    <meta name="description" content="Official End User License Agreement (EULA), Commercial Terms, and Licensing FAQ for FileGrid by OnyxHarbor.">
+    <link rel="icon" type="image/svg+xml" href="logo.svg">
+    <link rel="icon" type="image/png" href="icon-512.png">
+    <style>
+        :root {
+            --bg-color: #0b0d12;
+            --surface: #12161f;
+            --surface-hover: #171d28;
+            --card-bg: #141822;
+            --card-border: #232b3b;
+            --text-primary: #f0f4f8;
+            --text-secondary: #8b99ad;
+            --text-muted: #5e6b7d;
+            --accent: #3b82f6;
+            --accent-hover: #60a5fa;
+            --tag-bg: rgba(59, 130, 246, 0.1);
+            --tag-border: rgba(59, 130, 246, 0.25);
+            --success: #10b981;
+            --success-bg: rgba(16, 185, 129, 0.1);
+            --radius-sm: 6px;
+            --radius-md: 10px;
+            --radius-lg: 14px;
+        }
+        @media (prefers-color-scheme: light) {
+            :root {
+                --bg-color: #f8fafc;
+                --surface: #ffffff;
+                --surface-hover: #f1f5f9;
+                --card-bg: #ffffff;
+                --card-border: #e2e8f0;
+                --text-primary: #0f172a;
+                --text-secondary: #475569;
+                --text-muted: #94a3b8;
+                --accent: #2563eb;
+                --accent-hover: #1d4ed8;
+                --tag-bg: rgba(37, 99, 235, 0.08);
+                --tag-border: rgba(37, 99, 235, 0.2);
+                --success: #059669;
+                --success-bg: rgba(5, 150, 105, 0.08);
+            }
+        }
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-primary);
+            line-height: 1.6;
+            padding: 40px 20px 80px;
+        }
+        .container {
+            max-width: 860px;
+            margin: 0 auto;
+        }
+        header {
+            margin-bottom: 36px;
+            padding-bottom: 24px;
+            border-bottom: 1px solid var(--card-border);
+        }
+        .nav-back {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            color: var(--accent);
+            text-decoration: none;
+            font-size: 14px;
+            font-weight: 500;
+            margin-bottom: 20px;
+        }
+        .nav-back:hover {
+            text-decoration: underline;
+        }
+        .app-badge {
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            background: var(--tag-bg);
+            border: 1px solid var(--tag-border);
+            padding: 5px 12px;
+            border-radius: 20px;
+            font-size: 12px;
+            font-weight: 600;
+            margin-bottom: 14px;
+            color: var(--accent);
+        }
+        h1 {
+            font-size: 32px;
+            font-weight: 800;
+            letter-spacing: -0.02em;
+            margin-bottom: 8px;
+        }
+        .meta {
+            font-size: 14px;
+            color: var(--text-secondary);
+        }
+        .highlight-box {
+            background: var(--surface);
+            border: 1px solid var(--card-border);
+            border-left: 4px solid var(--accent);
+            border-radius: var(--radius-md);
+            padding: 20px 24px;
+            margin: 28px 0;
+            font-size: 14px;
+            color: var(--text-secondary);
+        }
+        .highlight-box strong {
+            color: var(--text-primary);
+        }
+        .license-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 16px;
+            margin: 24px 0 36px;
+        }
+        .license-card {
+            background: var(--card-bg);
+            border: 1px solid var(--card-border);
+            border-radius: var(--radius-md);
+            padding: 20px;
+        }
+        .license-card h3 {
+            font-size: 16px;
+            font-weight: 700;
+            margin-bottom: 8px;
+            color: var(--text-primary);
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        .license-card p {
+            font-size: 13px;
+            color: var(--text-secondary);
+            line-height: 1.5;
+        }
+        .card {
+            background-color: var(--card-bg);
+            border: 1px solid var(--card-border);
+            border-radius: var(--radius-md);
+            padding: 28px;
+            margin-bottom: 24px;
+        }
+        h2 {
+            font-size: 20px;
+            font-weight: 700;
+            margin-bottom: 14px;
+            color: var(--text-primary);
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        p {
+            margin-bottom: 14px;
+            color: var(--text-secondary);
+            font-size: 14.5px;
+            line-height: 1.65;
+        }
+        ul {
+            margin-left: 20px;
+            margin-bottom: 14px;
+            color: var(--text-secondary);
+            font-size: 14.5px;
+        }
+        li {
+            margin-bottom: 8px;
+        }
+        strong {
+            color: var(--text-primary);
+        }
+        .badge-check {
+            color: var(--success);
+            font-weight: bold;
+        }
+        .badge-cross {
+            color: #ef4444;
+            font-weight: bold;
+        }
+        footer {
+            margin-top: 50px;
+            padding-top: 24px;
+            border-top: 1px solid var(--card-border);
+            font-size: 13px;
+            color: var(--text-secondary);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 16px;
+        }
+        a {
+            color: var(--accent);
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        .btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            padding: 10px 20px;
+            border-radius: var(--radius-sm);
+            font-size: 14px;
+            font-weight: 600;
+            text-decoration: none;
+            cursor: pointer;
+            transition: all 0.2s ease;
+        }
+        .btn-primary {
+            background-color: var(--accent);
+            color: #fff;
+        }
+        .btn-primary:hover {
+            background-color: var(--accent-hover);
+            text-decoration: none;
+        }
+        .btn-secondary {
+            background-color: var(--surface);
+            border: 1px solid var(--card-border);
+            color: var(--text-primary);
+        }
+        .btn-secondary:hover {
+            border-color: var(--accent);
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <a href="index.html" class="nav-back">&larr; Back to FileGrid Home</a>
+            <div>
+                <span class="app-badge">Official EULA &amp; Licensing</span>
+            </div>
+            <h1>FileGrid License &amp; Terms of Use</h1>
+            <div class="meta">
+                Publisher: <strong>OnyxHarbor</strong> &bull; Effective Date: November 24, 2026 &bull; Product ID: <code>9MVBMC1RV9GH</code>
+            </div>
+        </header>
+
+        <div class="highlight-box">
+            <strong>Key Summary:</strong> FileGrid is commercial proprietary software. A single purchase grants a <strong>perpetual, DRM-free license</strong> for personal, commercial, and enterprise productivity with <strong>zero subscriptions</strong> and <strong>zero user tracking</strong>. A fully-functional <strong>15-day Free Trial</strong> is available via Microsoft Store.
+        </div>
+
+        <!-- Quick 4-box overview -->
+        <div class="license-grid">
+            <div class="license-card">
+                <h3><span class="badge-check">&#10003;</span> Perpetual Ownership</h3>
+                <p>One-time purchase ($9.99 USD). You own the purchased version forever. No recurring monthly or yearly subscription fees.</p>
+            </div>
+            <div class="license-card">
+                <h3><span class="badge-check">&#10003;</span> 15-Day Free Trial</h3>
+                <p>Download and test 100% of FileGrid's features and bundled plugins risk-free for 15 days before deciding to purchase.</p>
+            </div>
+            <div class="license-card">
+                <h3><span class="badge-check">&#10003;</span> Commercial Ready</h3>
+                <p>Fully authorized for commercial work, freelancers, companies, government, and academic institutions with zero seat penalties.</p>
+            </div>
+            <div class="license-card">
+                <h3><span class="badge-check">&#10003;</span> 100% Offline &amp; DRM-Free</h3>
+                <p>No phone-home checks, no periodic license validation servers, and zero telemetry. Operates completely disconnected.</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <h2>1. Grant of License</h2>
+            <p>
+                Subject to the terms of this Agreement, OnyxHarbor grants you a non-exclusive, non-transferable, perpetual license to install, execute, and use FileGrid on compatible Windows 11 devices linked to your authorized Microsoft Store account.
+            </p>
+            <ul>
+                <li><strong>Personal &amp; Household Use:</strong> You may install FileGrid across your personal laptops and desktop workstations under standard Microsoft Store device entitlements (up to 10 devices per Microsoft account).</li>
+                <li><strong>Commercial &amp; Enterprise Use:</strong> You are fully licensed to use FileGrid for commercial purposes, including daily business workflows, software engineering, digital media production, corporate data management, and consulting services.</li>
+                <li><strong>No Subscription Lock:</strong> All core file manager features, multi-pane grids, inline visual diff, and bundled plugins are unlocked forever upon purchase.</li>
+            </ul>
+        </div>
+
+        <div class="card">
+            <h2>2. Free Trial Policy</h2>
+            <p>
+                FileGrid offers a 15-day Free Trial distributed exclusively through the Microsoft Store:
+            </p>
+            <ul>
+                <li><strong>Full Capability:</strong> The trial is feature-complete with zero artificial limitations, watermarks, or crippled performance.</li>
+                <li><strong>No Automatic Billing:</strong> The Microsoft Store does not charge you during the trial period. When the 15-day period ends, the app will prompt you to purchase the full license to continue using it.</li>
+                <li><strong>Uninstallation:</strong> You may uninstall the trial at any time with no ongoing commitment.</li>
+            </ul>
+        </div>
+
+        <div class="card">
+            <h2>3. Permitted &amp; Restricted Uses</h2>
+            <p><strong>You Are Encouraged To:</strong></p>
+            <ul>
+                <li><span class="badge-check">&#10003;</span> Deploy FileGrid across your personal, freelance, studio, or corporate environments.</li>
+                <li><span class="badge-check">&#10003;</span> Develop and distribute modular plugins using the official FileGrid Plugin SDK (<code>.fgpkg</code> format).</li>
+                <li><span class="badge-check">&#10003;</span> Customize themes, hotkeys, split layouts, and workspace profiles freely.</li>
+            </ul>
+            <p><strong>You Agree NOT To:</strong></p>
+            <ul>
+                <li><span class="badge-cross">&#10007;</span> Decompile, reverse engineer, disassemble, or crack the core application binaries, except to the extent permitted by applicable law.</li>
+                <li><span class="badge-cross">&#10007;</span> Rebrand, rename, resell, rent, lease, sub-license, or redistribute FileGrid binaries as your own product or on third-party download mirrors.</li>
+                <li><span class="badge-cross">&#10007;</span> Inject, bundle, or distribute modified copies containing malware, adware, tracking SDKs, or unauthorized payloads.</li>
+                <li><span class="badge-cross">&#10007;</span> Remove, alter, or obscure any proprietary copyright notices, author watermarks, or licensing documents.</li>
+            </ul>
+        </div>
+
+        <div class="card">
+            <h2>4. Plugin Architecture &amp; Third-Party Extensions</h2>
+            <p>
+                FileGrid supports decoupled plugins packaged as <code>.fgpkg</code> files:
+            </p>
+            <ul>
+                <li><strong>Bundled Plugins:</strong> Official plugins bundled with the release (such as Batch Rename and Staging Basket) are governed by this commercial license.</li>
+                <li><strong>Third-Party Plugins:</strong> Plugins authored by independent developers retain their own respective licenses and terms. OnyxHarbor assumes no liability for external plugins downloaded from third-party sources.</li>
+                <li><strong>Crash Isolation:</strong> FileGrid runs isolated processes and UI sandboxes so that plugin errors cannot corrupt the core application state.</li>
+            </ul>
+        </div>
+
+        <div class="card">
+            <h2>5. Privacy, Data Safety &amp; Telemetry Firewall</h2>
+            <p>
+                OnyxHarbor believes professional productivity tools must respect user privacy:
+            </p>
+            <ul>
+                <li><strong>Zero Telemetry:</strong> FileGrid transmits zero user activity, zero keystroke logs, zero file listings, and zero search queries to any remote server.</li>
+                <li><strong>Offline Reliability:</strong> All indexing, thumbnail extraction, checksum calculation, and file diffing occur 100% locally on your machine.</li>
+                <li><strong>Review Our Policy:</strong> For complete details, read our official <a href="privacy.html">Privacy Policy</a>.</li>
+            </ul>
+        </div>
+
+        <div class="card">
+            <h2>6. Purchases, Taxes &amp; Refund Policy</h2>
+            <p>
+                All financial transactions, currency conversions, local sales taxes (VAT/GST), and payment methods are processed exclusively by Microsoft Corporation through the Microsoft Store.
+            </p>
+            <ul>
+                <li><strong>Store Support:</strong> Inquiries regarding billing, payment receipts, or Microsoft Store account entitlements should be directed to <a href="https://support.microsoft.com/" target="_blank" rel="noopener">Microsoft Store Support</a>.</li>
+                <li><strong>Refunds:</strong> Refund requests are governed by Microsoft's standard digital goods policy. If you encounter an issue, we recommend trying the 15-day Free Trial first.</li>
+            </ul>
+        </div>
+
+        <div class="card">
+            <h2>7. Disclaimer of Warranty &amp; Limitation of Liability</h2>
+            <p>
+                FILEGRID IS A HIGH-PERFORMANCE FILE SYSTEM UTILITY CAPABLE OF EXECUTING BULK FILE CREATION, MOVING, RENAMING, AND DELETION OPERATIONS.
+            </p>
+            <p>
+                TO THE MAXIMUM EXTENT PERMITTED BY LAW, FILEGRID IS PROVIDED STRICTLY <strong>"AS-IS"</strong> AND <strong>"AS-AVAILABLE"</strong> WITHOUT WARRANTIES OF ANY KIND, EXPRESS OR IMPLIED. ONYXHARBOR SPECIFICALLY DISCLAIMS ALL IMPLIED WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND DATA PRESERVATION.
+            </p>
+            <p>
+                UNDER NO CIRCUMSTANCES SHALL ONYXHARBOR BE LIABLE FOR DIRECT, INDIRECT, INCIDENTAL, SPECIAL, OR CONSEQUENTIAL DAMAGES (INCLUDING LOSS OF DATA, CORRUPTED DIRECTORIES, SYSTEM DOWNTIME, OR BUSINESS INTERRUPTION) RESULTING FROM THE USE OF FILEGRID. USERS ARE SOLELY RESPONSIBLE FOR MAINTAINING REGULAR, SECURE DATA BACKUPS OF ALL CRITICAL FILES.
+            </p>
+        </div>
+
+        <div class="card">
+            <h2>8. Plain Text EULA &amp; Open Source Notices</h2>
+            <p>
+                For automated distribution compliance and third-party open-source components used in FileGrid (such as Microsoft Windows App SDK, CommunityToolkit, and Vanara), please inspect:
+            </p>
+            <div style="display: flex; gap: 12px; flex-wrap: wrap; margin-top: 16px;">
+                <a href="EULA.txt" target="_blank" class="btn btn-secondary">Read Plain-Text EULA.txt</a>
+                <a href="THIRDPARTYNOTICES.txt" target="_blank" class="btn btn-secondary">Third-Party Notices.txt</a>
+                <a href="https://apps.microsoft.com/detail/9MVBMC1RV9GH" target="_blank" rel="noopener" class="btn btn-primary">View on Microsoft Store</a>
+            </div>
+        </div>
+
+        <footer>
+            <div>
+                <strong>FileGrid</strong> &bull; &copy; 2026 OnyxHarbor. All rights reserved.
+            </div>
+            <div style="display: flex; gap: 16px;">
+                <a href="index.html">Home</a>
+                <a href="privacy.html">Privacy</a>
+                <a href="PLUGIN_DEVELOPMENT.md">Plugin SDK</a>
+                <a href="https://github.com/OnyxHarbor/FileGrid/issues" target="_blank" rel="noopener">Support</a>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
